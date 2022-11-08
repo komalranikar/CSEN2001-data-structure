@@ -45,7 +45,7 @@ void display() {
     }
 }
 
-int main(void) {
+int main(){
     int choice, value;
     printf("\nImplementation of Stack using Linked List\n");
     while (1) {
@@ -72,3 +72,4 @@ int main(void) {
         }
     }
 }
+  
