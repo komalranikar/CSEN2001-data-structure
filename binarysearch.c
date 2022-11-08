@@ -18,11 +18,22 @@ int binarysearch(int arr[], int size, int element) {
   }
 }
 
-int main() {
-  int arr[] = {1, 3, 5, 56,67, 489, 2399, 4545, 5634};
-  int size =sizeof(arr)/sizeof(int);
-  int element = 489;
-  int searchindex = binarysearch(arr, size, element);
-  printf("element %d is found at index %d", element,searchindex);
+int main(){
+  int arr[10],i,size,element,searchindex;
+  size=sizeof(arr)/sizeof(int);
+  printf("Enter the elements:-");
+  for(i=0; i<size; i++){
+    scanf("%d",&arr[i]);
+  }
+  printf("Enter the element you want to search:-");
+  scanf("%d",&element);
+  
+  searchindex=binarysearch(arr,size,element);
+  if (searchindex==-1){
+    printf("Element not found!");
+  }
+  else{
+    printf("Element %d is found at index %d",element,searchindex);
+    }
   return 0;
 }

@@ -20,7 +20,7 @@ void insertionsort(int *arr, int n){
 }
 int main(){
   int n;
-  int arr[]={42,23,74,11,65,58,94,36,99,87 };
+  int arr[]={42,23,74,11,65,58,95,89};
   n=sizeof(arr)/sizeof(int);
   printf("Array before sorting:-\n");
   printarray(arr,n);

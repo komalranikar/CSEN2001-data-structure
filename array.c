@@ -23,7 +23,7 @@ int main(){
   struct student slist[5];
   printf("Enter 5 Student details:-Roll number, Name, Grade, Adhar number:-\n");
   for(i=0;i<5;i++){
-    printf("Enter details of student number %d\n",i+1);
+    //printf("Enter details of student number %d\n",i+1);
     scanf("%d",&slist[i].Roll_no);
     scanf("%s",&slist[i].Name);
     scanf("%d",&slist[i].Grade); 
@@ -32,7 +32,7 @@ int main(){
   struct adhar alist[5];
   printf("%s","Enter adhar details:- Adhar number,Bank name, Branch\n");
   for(j=0;j<5;j++){
-    printf("Enter adhar details of student number %d\n",j+1);
+    //printf("Enter adhar details of student number %d\n",j+1);
     scanf("%d",&alist[j].Adhar_no);
     scanf("%s",&alist[j].Bank_name);
     scanf("%s",&alist[j].Branch);
@@ -41,7 +41,7 @@ int main(){
   struct bank blist[5];
   printf("%s","Enter bank details:- Bank name, Branch, Account number, Balance\n");
   for(k=0;k<5;k++){
-    printf("Enter bank details of student number %d\n",k+1);
+    //printf("Enter bank details of student number %d\n",k+1);
     scanf("%s",&blist[k].Bank_name);
     scanf("%s",&blist[k].Branch);
     scanf("%d",&blist[k].Account_no);
